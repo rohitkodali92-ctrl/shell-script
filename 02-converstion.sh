@@ -1,7 +1,7 @@
 #!/bin/bash
 
-person1=ro
-person2=po
+person1=$1
+person2=$2
 
 echo "$person1::wru dng hp"
 echo "$person2:: dng nothing"
