@@ -3,7 +3,7 @@
 USERID=$(id -u)
 
 if [ $USERID -ne 0 ]; then
-    echo "ERROR::run the script with root"
+    echo "ERROR::run the script with root or user sudo"
     exit 1
 fi
 
