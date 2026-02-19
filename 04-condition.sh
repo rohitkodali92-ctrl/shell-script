@@ -3,7 +3,7 @@
 echo "plese enter the number"
 read number
 
-if [ $(($NUMBER % 5))-ne 0 ]; then
+if [ $(($NUMBER % 5)) -ne 0 ]; then
     echo "given number $NUMBER is EVEN"
 else
     echo "given number $NUMBER is ODD"
