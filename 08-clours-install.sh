@@ -25,7 +25,7 @@ if [ $? -ne 0 ]; then
    dnf install mysql -y
    VALEDATE $? "mysql"
 else 
-    echo -e "mysql alredy exist ... $G skipping $N"
+    echo -e "mysql alredy exist ... $y skipping $N"
 fi
 
 dnf list installed nginx
@@ -33,5 +33,5 @@ if [ $? -ne 0 ]; then
     dnf install nginx -y
     VALEDATE $? "nginx"
 else 
-    echo -e "nginx alredy exist ... $G skipping $N"
+    echo -e "nginx alredy exist ... $y skipping $N"
 fi
